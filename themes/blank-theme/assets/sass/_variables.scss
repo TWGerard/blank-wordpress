@@ -1,0 +1,19 @@
+
+////////////////////
+// Variables
+////////////////////
+
+$wrapper-width : 1080;
+$site-background-color : rgb(215, 215, 215);
+$site-color : rgb(20, 20, 20);
+
+
+
+////////////////////
+// Mixins
+////////////////////
+
+@mixin box-sizing($sizing) {
+  box-sizing: $sizing;
+  -moz-box-sizing: $sizing;
+}

@@ -1,0 +1,36 @@
+@import 'normalize';
+@import 'variables';
+
+html {
+  background-color: $site-background-color;
+  color: $site-color;
+}
+
+#wrapper {
+  width: $wrapper-width + px;
+  margin: 0 auto;
+  @include box-sizing(border-box);
+}
+
+#header {
+  width: 100%;
+  @include box-sizing(border-box);
+
+  h1 {
+    // This is a comment in SASS
+    // This is also a nested selector in SASS (compiles to `#header h1 { ... }`)
+    font-size: 32px;
+  }
+}
+
+#content-wrapper {
+  width: 100%;
+  @include box-sizing(border-box);
+  padding: 12px 24px;
+  background-color: rgb(250, 250, 250);
+}
+
+#footer {
+  width: 100%;
+  @include box-sizing(border-box);
+}

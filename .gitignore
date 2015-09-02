@@ -1,0 +1,11 @@
+# File types
+.sass-cache
+.tmp
+.cache
+*.css.map
+.DS_STORE
+
+
+# WordPress Directories
+uploads
+upgrade

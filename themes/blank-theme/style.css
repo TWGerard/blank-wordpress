@@ -1,0 +1,11 @@
+/*
+Theme Name: Blank Theme
+Description: A blank starting point for a new theme using SASS and Normalize.css
+Version: 0.00
+Author: Tyler Gerard
+Author URI: http://www.tylergerard.com/
+
+Styles are defined in assets/sass/
+Compile with `sass --watch assets/sass:assets/stylesheets`
+
+*/
